@@ -12,7 +12,7 @@ type resProps = {
 };
 
 export default async function Posts() {
-  const res = await fetch("https://dummyjson.com/posts");
+  const res = await fetch("https://dummyjson.com/posts?limit=5");
   const data: resProps = await res.json();
 
   return (
