@@ -1,0 +1,17 @@
+import Link from "next/link";
+
+export function Header() {
+  return (
+    <header className="flex px-2 py-4 bg-zinc-900 text-white">
+      <div className="flex items-center justify-between w-full mx-auto max-w-7xl">
+        <h1>NEXT JS</h1>
+        <nav>
+          <ul className="flex items-center justify-center gap-2">
+            <Link href="/">Home</Link>
+            <Link href="/contatos">Post</Link>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  );
+}
