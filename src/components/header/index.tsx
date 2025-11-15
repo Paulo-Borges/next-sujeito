@@ -8,7 +8,8 @@ export function Header() {
         <nav>
           <ul className="flex items-center justify-center gap-2">
             <Link href="/">Home</Link>
-            <Link href="/contatos">Post</Link>
+            <Link href="/contatos">Contatos</Link>
+            <Link href="/dashboard">Dashboard</Link>
           </ul>
         </nav>
       </div>
